@@ -49,8 +49,8 @@ function Header() {
   const [showAdvanced, setShowAdvanced] = useState(false)
 
   return (
-    <header className="flex flex-col items-center gap-6">
-      <div className="fixed items-center top-20 right-20 flex gap-2 z-50">
+    <header className="flex flex-col items-center gap-4 sm:gap-6 px-4">
+      <div className="fixed items-center top-4 right-4 sm:top-8 sm:right-8 md:top-12 md:right-12 lg:top-20 lg:right-20 flex gap-2 z-50">
         <Dialog>
           <DialogTrigger asChild>
             <Button size="icon" className="group cursor-pointer">
@@ -268,16 +268,16 @@ function Header() {
         </Dialog>
       </div>
 
-      <div className="bg-purple-100 p-4 rounded-xl">
-        <Music 
-          size={40}
-          className="text-purple-800"
+      <div className="bg-purple-100 p-3 sm:p-4 rounded-xl">
+        <Music
+          size={32}
+          className="text-purple-800 sm:w-10 sm:h-10"
         />
       </div>
-      <h1 className="text-6xl font-bold">
+      <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center">
         MIDI Craft
       </h1>
-      <p className="text-2xl text-gray-500">
+      <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-500 text-center max-w-2xl">
         Convert Youtube Links or Audio files to MIDI Files
       </p>
     </header>
