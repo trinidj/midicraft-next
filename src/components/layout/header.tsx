@@ -7,6 +7,7 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Checkbox } from "@/components/ui/checkbox"
 import { Label } from "@/components/ui/label"
+import { ModeToggle } from '@/components/mode-toggle'
 
 import {
   Dialog,
@@ -51,6 +52,7 @@ export const Header = () => {
   return (
     <header className="flex flex-col items-center gap-4 sm:gap-6 px-4">
       <div className="fixed items-center top-4 right-4 sm:top-8 sm:right-8 md:top-12 md:right-12 lg:top-20 lg:right-20 flex gap-2 z-50">
+        <ModeToggle />
         <Dialog>
           <DialogTrigger asChild>
             <Button size="icon" className="group cursor-pointer">

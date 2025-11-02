@@ -57,6 +57,7 @@ export default function Home() {
           </div>
 
           <div id="right-side" className="flex flex-col w-md gap-8">
+            {/* Youtube URL Card */}
             <Card>
               <CardHeader className="flex items-center gap-2">
                 <CardTitle className="flex items-center gap-2">
@@ -86,6 +87,7 @@ export default function Home() {
               </CardContent>
             </Card>
 
+            {/* Cookies Card */}
             <Card>
               <CardHeader className="flex items-center gap-2">
                 <CardTitle className="flex items-center gap-2">
