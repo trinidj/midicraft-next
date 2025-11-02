@@ -277,7 +277,7 @@ export const Header = () => {
       <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center">
         MIDI Craft
       </h1>
-      <p className="text-base sm:text-lg md:text-xl lg:text-2xl text-gray-500 text-center max-w-2xl">
+      <p className="text-muted-foreground sm:text-lg md:text-base lg:text-xl text-center max-w-2xl">
         Convert Youtube Links or Audio files to MIDI Files
       </p>
     </header>
