@@ -2,7 +2,7 @@
 
 import { useState } from 'react'
 
-import { Sun, Music, Settings, Info } from "lucide-react"
+import { Music, Settings, Info } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Checkbox } from "@/components/ui/checkbox"
@@ -44,7 +44,7 @@ import {
   TooltipContent
 } from "@/components/ui/tooltip"
 
-function Header() { 
+export const Header = () => { 
   const midiModels = ['Piano', 'Transkun']
   const [showAdvanced, setShowAdvanced] = useState(false)
 
@@ -283,5 +283,3 @@ function Header() {
     </header>
   )
 }
-
-export { Header }
