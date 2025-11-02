@@ -65,7 +65,7 @@ export const Header = () => {
               <DialogTitle className="flex items-center gap-2">
                 <Settings 
                   size={20}
-                  className="text-purple-800"
+                  className="text-[#ff2056]"
                 />
                 Conversion Settings
               </DialogTitle>
@@ -270,13 +270,13 @@ export const Header = () => {
         </Dialog>
       </div>
 
-      <div className="bg-purple-100 p-3 sm:p-4 rounded-xl">
+      <div className="bg-[#ff2056]/20 p-3 sm:p-4 rounded-xl">
         <Music
           size={32}
-          className="text-purple-800 sm:w-10 sm:h-10"
+          className="text-[#ff2056] sm:w-10 sm:h-10"
         />
       </div>
-      <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold text-center">
+      <h1 id='site-title' className="text-4xl sm:text-5xl md:text-6xl font-bold text-center">
         MIDI Craft
       </h1>
       <p className="text-muted-foreground sm:text-lg md:text-base lg:text-xl text-center max-w-2xl">

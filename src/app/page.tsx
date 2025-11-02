@@ -33,10 +33,10 @@ export default function Home() {
           <div id="left-side">
             <Card className="flex flex-col justify-center w-md">
               <div className="flex justify-center">
-                <div className="flex items-center justify-center bg-purple-100 p-6 rounded-full">
+                <div className="flex items-center justify-center bg-[#ff2056]/20 p-6 rounded-full">
                   <Upload 
                     size={35}
-                    className="text-purple-800"
+                    className="text-[#ff2056]"
                   />
                 </div>
               </div>
@@ -63,7 +63,7 @@ export default function Home() {
                 <CardTitle className="flex items-center gap-2">
                   <Clapperboard 
                     size={20}
-                    className="text-purple-800"
+                    className="text-[#ff2056]"
                   />
                   YouTube URLs
                 </CardTitle>
@@ -93,7 +93,7 @@ export default function Home() {
                 <CardTitle className="flex items-center gap-2">
                   <Cookie 
                     size={20}
-                    className="text-purple-800"
+                    className="text-[#ff2056]"
                   />
                   Cookie File
                 </CardTitle>
