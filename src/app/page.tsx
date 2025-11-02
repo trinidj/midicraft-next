@@ -56,6 +56,10 @@ export default function Home() {
             </Card>
           </div>
 
+          <div className="flex flex-col justify-center">
+            <p className="text-muted-foreground font-semibold text-sm">Or</p>
+          </div>
+
           <div id="right-side" className="flex flex-col w-md gap-8">
             {/* Youtube URL Card */}
             <Card>
