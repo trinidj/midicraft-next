@@ -1,3 +1,5 @@
+"use client"
+
 import { Upload, Clapperboard, Cookie, Info } from "lucide-react"
 
 import { Header } from "@/components/layout/header"
@@ -27,7 +29,7 @@ export default function Home() {
     <div className="flex flex-col justify-center items-center my-20 gap-14">
       <Header />
       <Main>
-        <div className="flex justify-center m-a">
+        <div className="flex justify-center gap-6">
           <div id="left-side">
             <Card className="flex flex-col justify-center w-md">
               <div className="flex justify-center">
@@ -54,7 +56,7 @@ export default function Home() {
             </Card>
           </div>
 
-          <div id="right-side" className="flex flex-col w-md">
+          <div id="right-side" className="flex flex-col w-md gap-8">
             <Card>
               <CardHeader className="flex items-center gap-2">
                 <CardTitle className="flex items-center gap-2">
@@ -80,7 +82,7 @@ export default function Home() {
               </CardHeader>
 
               <CardContent>
-                <Textarea className="resize-none"/>
+                <Textarea className="resize-none h-16" placeholder="Add one URL per line for batch processing" />
               </CardContent>
             </Card>
 
@@ -93,6 +95,7 @@ export default function Home() {
                   />
                   Cookie File
                 </CardTitle>
+
                 <TooltipProvider>
                   <Tooltip>
                     <TooltipTrigger>
